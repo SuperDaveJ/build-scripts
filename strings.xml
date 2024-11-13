@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Mileage Tracker</string>
+    <string name="gps_network_not_enabled">Please Enable Location Services</string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="Cancel">Cancel</string>
+    <string name="pause_trip">Pause Trip</string>
+    <string name="start_trip">Start Trip</string>
+    <string name="resume_trip">Resume Trip</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="permanently_dismiss">Permanently Dismiss</string>
+    <string name="safety_message">Paycom\'s mobile Tracking App should not be used while the vehicle is in motion, all federal and state regulations in regards to mobile devices while driving should also be used.</string>
+    <string name="notification_start_trip">Currently tracking your trip</string>
+    <string name="notification_pause_trip">Your trip is currently paused</string>
+    <string name="description">Description</string>
+    <string name="total_duration">Total duration</string>
+    <string name="total_miles">Total Miles</string>
+    <string name="start_date">Start Date</string>
+    <string name="trip_details_icon">trip_details_icon</string>
+    <string name="end_and_save_trip">End and Save Trip</string>
+    <string name="trip_description">Trip Description</string>
+    <string name="enter_trip_title">Enter Trip Title</string>
+    <string name="add_receipt">Add Receipt</string>
+    <string name="save_and_finish">Save and Finish</string>
+    <string name="distance_mi">Distance (Mi)</string>
+    <string name="duration">Duration</string>
+    <string name="end_trip">End Trip</string>
+    <string name="frequent_destinations">Frequent Destinations</string>
+    <string name="return_to_tracking">Return to Tracking</string>
+    <string name="open_ess_and_sync">Open ESS and Sync</string>
+    <string name="my_trips">My Trips</string>
+    <string name="unsynced_trips">Unsynced Trips</string>
+    <string name="new_trips_will_sync_to_ess_when_ess_is_next_opened">New trips will sync to ESS when ESS is next opened.</string>
+    <string name="return_to_my_trips">Return to My Trips</string>
+    <string name="date">Date</string>
+    <string name="distance">Distance</string>
+    <string name="delete">Delete</string>
+    <string name="replace_receipt">Replace Receipt</string>
+    <string name="close">Close</string>
+    <string name="resume_action">resume</string>
+    <string name="pause_action">pause</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_replacement_key">REPLACE_VALUE</string>
+
+    <string name="pref_sync_notifications_key">pref_sync_notifications</string>
+    <string name="pref_sync_notifications_message">You have %d trips that are complete but have not been pushed to Employee Self-Service</string>
+    <string name="pref_sync_notifications_message_singular">You have %d trip that is complete but have not been pushed to Employee Self-Service</string>
+    <string name="pref_sync_notifications_title">Send Trips to ESS</string>
+    <string name="pref_sync_notifications_summary">Notify me after a certain number of days when I have trips that need to be sent to my company ESS</string>
+    <string name="pref_unsynced_threshold_key">pref_notification_unsynced_threshold_key</string>
+    <string name="pref_unsynced_threshold_title">Set Days before Notification</string>
+    <string name="pref_unsynced_threshold_summary">Set the number of days before notifications</string>
+
+
+    <string name="pref_no_movement_notification_key">pref_no_movement_notification</string>
+    <string name="pref_no_movement_notification_title">End Tracking Prompt</string>
+    <string name="pref_no_movement_notification_summary">Notify me when I have not moved for 10 minutes and am still tracking a trip</string>
+    <string name="pref_no_movement_threshold_key">pref_notification_no_movement_threshold_key</string>
+    <string name="pref_no_movement_threshold_title">Set Stop Tracking Speed (MPH)</string>
+    <string name="pref_no_movement_threshold_summary">Notify me when I’m moving under this speed for 10 minutes</string>
+
+    <string name="pref_movement_on_paused_trip_key">pref_movement_on_paused_trip</string>
+    <string name="pref_movement_on_paused_trip_title">Resume Tracking When Driving</string>
+    <string name="pref_movement_on_paused_trip_summary">Notify me when a trip is paused and I’ve started driving again</string>
+    <string name="pref_movement_on_paused_trip_threshold_key">pref_movement_on_paused_trip_threshold_key</string>
+    <string name="pref_movement_on_paused_trip_threshold_title">Set Start Tracking Speed (MPH)</string>
+    <string name="pref_movement_on_paused_trip_threshold_summary">Notify me when I’m moving at this speed</string>
+
+    <string name="pref_no_movement_notification_message">Trip tracking is still enabled, do you want to end this trip now?</string>
+
+    <integer name="default_no_movement_notification">10</integer>
+    <integer name="default_movement_on_paused_trip">10</integer>
+    <integer name="default_sync_notifications">5</integer>
+
+    <string name="select_previous_destination">Select Previous Destination</string>
+    <string name="start_tracking">Start Tracking</string>
+    <string name="receiptImageContentDescription">Receipt Image</string>
+    <string name="deleteButtonText">Delete</string>
+    <string name="receipt_description_label">Receipt Description</string>
+    <string name="receipt_amount_label">Amount</string>
+    <string name="save_receipt_button">Save and Close</string>
+    <string name="replace_receipt_button">Replace Receipt</string>
+    <string name="_0_0">0.0</string>
+    <string name="_0_00">0:00</string>
+
+    <string name="safety_notification">We encourage safe driving at all times. Please ensure you\'re safely parked before changing settings in this app.</string>
+    <string name="feature_notification">This feature isn\'t available for the account. Contact you HR department for more information.</string>
+    <string name="safety_notification_title">Safety Notification</string>
+    <string name="feature_notification_title">Notification</string>
+    <string name="open_navigation">Open Navigation</string>
+    <string name="trip_tracking_title">Your Trip is Tracking</string>
+    <string name="trip_tracking_message">Your trip is tracking. Would you like to open navigation on your device to show you the quickest route available?</string>
+    <string name="resume_tracking_title">Resume Tracking</string>
+    <string name="resume_tracking_message">Trip is paused, do you want to resume tracking?</string>
+    <string name="sync_trip_message">This trip will automatically sync to your ESS account when you open the ESS app.</string>
+    <string name="open_ess">Open ESS</string>
+    <string name="delete_trip">Are you sure you want to permanently delete this trip?</string>
+    <string name="return_mileage_tracker">You must return to the Mileage Tracker app in order to begin and end tracking your mileage.</string>
+    <string name="mileagetracker_auth_required_title">Authorization Required</string>
+    <string name="mileagetracker_auth_required_message">Your authorization has expired. Please log into ESS to continue logging trips.</string>
+    <string name="batch_select">Batch Select</string>
+    <string name="batch_delete">Batch Delete</string>
+    <string name="view_my_trips">View My Trips</string>
+    <string name="settings">Settings</string>
+    <string name="confirm">Confirm</string>
+    <string name="end_trip_message">Are you sure that you would like to end this trip?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="hint_enter_receipt_description">Enter Receipt Description</string>
+    <string name="hint_enter_receipt_amount">Enter Receipt Amount</string>
+    <string name="no_location_data_available">No Location Data Available</string>
+    <string name="ok">OK</string>
+    <string name="required_condition_asterik">*</string>
+    <string name="discard_trip">Discard Trip</string>
+    <string name="discard_this_trip">Are you sure you want to discard this trip?</string>
+    <string name="view_receipt">View Receipt</string>
+    <string name="delete_receipt">Delete Receipt</string>
+    <string name="pref_sync_trips_setting">Syncing Trips Setting</string>
+    <string name="pref_stopped_moving_setting">Stopped Moving Setting</string>
+    <string name="pref_moving_while_paused_setting">Moving While Paused Setting</string>
+    <string name="title_alert">Alert</string>
+</resources>
